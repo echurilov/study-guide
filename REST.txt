@@ -1,0 +1,18 @@
+tags: REST
+
+"What is REST?";
+"REST stands for Representational State Transfer. It's a software architectural style that defines a set of constraints to be used for creating web services. REST originated by Roy Fielding, one of the principal authors of the HTTP specification, in his PhD dissertation ""Architectural Styles and the Design of Network-based Software Architectures""."
+
+"What are the Fielding constraints?";
+"Uniform interface
+Client–server
+Stateless
+Cacheable
+Layered system
+Code on demand"
+
+"What sub-constraints make up a Uniform Interface";
+""
+
+"Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful";
+""

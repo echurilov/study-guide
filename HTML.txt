@@ -1,0 +1,7 @@
+tags: HTML
+
+"Name 5 benefits of HTML5";
+""
+
+"What is localStorage? How might you use it?";
+""
