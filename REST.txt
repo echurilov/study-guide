@@ -4,15 +4,28 @@ tags: REST
 "REST stands for Representational State Transfer. It's a software architectural style that defines a set of constraints to be used for creating web services. REST originated by Roy Fielding, one of the principal authors of the HTTP specification, in his PhD dissertation ""Architectural Styles and the Design of Network-based Software Architectures""."
 
 "What are the Fielding constraints?";
-"Uniform interface
-Client–server
-Stateless
-Cacheable
-Layered system
-Code on demand"
+"Uniform interface, client–server architecture, statelessness, cacheability, layered system, and code on demand"
 
 "What sub-constraints make up a Uniform Interface";
-""
+"Resources should be identified in requests: The resources themselves are conceptually separate from the representations returned - the server can return a resource in formats other than its internal representation.
+Resources should be manipulable through their representations: A representation of a resource, including any metadata attached, should containg the information needed to modify or delete the resource.
+Messages should be self-descriptive: they should include enough information to describe how to process themselves.
+Hypermedia as the engine of application state (HATEOAS): Clients should not need to have any a priori knowledge of what actions are available. All actions and resources should be discoverable through server-provided links."
+
+"What is the client-server architecture constraint?";
+"The client application and server application must be able to developed separately or replaced entirely, without any dependency on each other. A client should only need to know resource URIs."
+
+"What is the statelessness constraint?";
+"The server should not store any client contect between requests. The client should be entirely responsible for managing state, and all client requests to the server should contain all stateful information necessary to service those requests."
+
+"What is the cacheability constraint?";
+"Responses should include information about whether or not they are cacheable, so that clients can cache or not as appropriate."
+
+"What is the layered system constraint?";
+"Architecture should be layerable so that a client cannot tell whether it is connected directly to the end server or to an intermediary, and vice versa. "
+
+"What is the code on demand constraint?";
+"It is permissible to return executable code rather than exclusively static objects."
 
 "Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful";
 ""
