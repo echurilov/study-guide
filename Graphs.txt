@@ -22,16 +22,16 @@ tags: data-structures graphs
 "A Delaunay triangulation is an unweighted undirected graph connecting a set of points such that no point is inside the circumcircle of any triangle of connected points."
 
 "What makes a graph a simple graph? What attributes would make it not simple?";
-"A simple graph is an unweighted, undirected with neither loops nor duplicated edges."
+"A simple graph is an unweighted, undirected graph with neither loops nor multiple edges."
 
 "What is the maximum number of edges in an undirected simple graph?";
-"In a simple graph of n vertices, the degree of every vertex is at most n-1."
+"In a simple undirected graph of n vertices, the degree of every vertex is at most n-1."
 
 "What is the maximum number of edges in a directed simple graph?";
-""
+"In a simple directed graph of n vertices, the degree of every vertex is at most n(n-1)."
 
 "Describe the levels of connectivity a graph can have (strongly connected, weakly connected).";
-""
+"A graph is connected when there is a path between every pair of vertices. In a connected graph, there are no unreachable vertices. A graph that is not connected is disconnected. A graph is said to be disconnected if there exist two nodes in it such that no path has those nodes as endpoints. A graph with just one vertex is connected. An edgeless graph with two or more vertices is disconnected."
 
 "What are cycles?";
 ""
